@@ -12,6 +12,7 @@ NOTE - Check the lib/NetStates.properties waitTime variable first - see below.
 
 Files:
 powerShellRunner.groovy = The java script that runs a powershell process as a service in Logscape. 
+(Don't have Logscape?! You should! www.logscape.com. However, if you want to monitor this stuff anyway, simply run the powershell with it outputting to a file ie powershell .\lib\NetStats.ps1 > output.txt)
 NetStatsApp-1.0.bundle = The bundle file for Logscape use. I've left it set to Windows Hosts only, you may wish to limit it to the boxes you need monitoring. 
 NetStats.config = The data type and watch directory for Logscape.
 lib/NetStates.properties = A simple properties file, used for config. The two options you can change are:
