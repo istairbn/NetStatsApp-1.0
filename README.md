@@ -1,6 +1,5 @@
 #NetStatsApp-1.0
 Creator: Ben Newton
-Contact: Ben.newton@excelian.com
 
 This app is designed to pump network data out in a JSON format, suitable for ingestion by Logscape. It covers every connection on the box and out puts the State, PID, remote and local ports and addresses, process name and protocol. It's main use case is for when you are suffering from Network issues and need to know how many connections you have and what ports are actually in use. 
 
